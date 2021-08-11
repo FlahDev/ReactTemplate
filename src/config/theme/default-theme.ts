@@ -1,10 +1,10 @@
 import { DefaultTheme, ColorsTheme } from 'styled-components'
 
 export class ColorsClass implements ColorsTheme {
-	public readonly primary = 'blue'
-	public readonly secondary = 'orange'
-	public readonly success = 'green'
-	public readonly error = 'red'
+	public readonly primary = '#00f'
+	public readonly secondary = '#fa0'
+	public readonly success = '#0f0'
+	public readonly error = '#f00'
 	public readonly black = '#353535'
 	public readonly white = '#ddd'
 	public readonly backgroundPrimary = '#e1e2e1'
