@@ -3,10 +3,12 @@ import React from 'react'
 
 import { Application } from 'config'
 
+import { Routes } from 'routes'
+
 function App() {
 	return (
 		<Application>
-			<h4>hellow world</h4>
+			<Routes />
 		</Application>
 	)
 }
